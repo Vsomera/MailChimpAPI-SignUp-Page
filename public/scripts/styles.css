@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap');
+
+
+body {
+    font-family: 'Lexend Exa', 'sans-serif';;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/waves.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* SignUp Box */
+#signup-box {
+    background: #001220;
+    border: 5px solid #F0EEED;
+    border-radius: 5%;
+    height: 600px;
+    width: 500px;
+    z-index: 1;
+}
+.container {
+    display: flex;
+    color: #F0EEED;
+    padding: 20px;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 45px;
+    padding: 0;
+}
+.textboxes {
+    display: flex;
+    flex-direction: column;
+}
