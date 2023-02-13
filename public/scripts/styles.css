@@ -17,7 +17,7 @@ body {
 /* SignUp Box */
 #signup-box {
     background: #001220;
-    border: 5px solid #F0EEED;
+    border: 3px solid #F0EEED;
     border-radius: 5%;
     height: 600px;
     width: 500px;
@@ -29,12 +29,38 @@ body {
     padding: 20px;
     flex-direction: column;
 }
-
+/*Textboxes*/
 h2 {
-    font-size: 45px;
-    padding: 0;
+    text-align: center;
+    font-size: 35px;
+    margin: 4rem 0;
 }
 .textboxes {
+    align-items: center;
     display: flex;
     flex-direction: column;
+}
+input {
+    color: #F0EEED;
+    margin-top: 2rem;
+    padding: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-radius: 5px;
+    background-color: #001220;
+    width: 90%;
+}
+
+
+button {
+    background-color: #FA7268;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5rem;
+    padding: 10px;
+    justify-content: center;
+    width: 50%;
 }
