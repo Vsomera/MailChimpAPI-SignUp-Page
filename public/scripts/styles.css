@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa&display=swap");
+
+body {
+  font-family: "Lexend Exa", "sans-serif";
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/waves.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* SignUp Box */
+#signup-box {
+  background: #001220;
+  border: 3px solid #f0eeed;
+  border-radius: 5%;
+  height: 600px;
+  width: 500px;
+  z-index: 1;
+}
+.container {
+  display: flex;
+  color: #f0eeed;
+  padding: 20px;
+  flex-direction: column;
+}
+/*Textboxes*/
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 4rem 0;
+}
+.textboxes {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  color: #f0eeed;
+  margin-top: 2rem;
+  padding: 10px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-radius: 5px;
+  background-color: #001220;
+  width: 90%;
+}
+
+button {
+  background-color: #fa7268;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5rem;
+  padding: 10px;
+  justify-content: center;
+  width: 50%;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+button:hover {
+  background-color: #c62368;
+}
